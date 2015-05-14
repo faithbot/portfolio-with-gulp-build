@@ -48,7 +48,7 @@ html, body {
 }
 
 body {
- background-image: url("../_img/largedoll.jpg");
+ background-image: url("../images/largedoll.jpg");
  background-repeat: no-repeat;
  background-position: top center;
  background-attachment: fixed;
@@ -144,10 +144,10 @@ header h1 {
 .mainfooter {
  border-style: solid; 
  border-width: 46px 0px 0px; 
- -moz-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
- -webkit-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
- -o-border-image: url("../_img/blacklace.png") 46 1 0 0 repeat; 
- border-image: url("../_img/blacklace.png") 46 1 0 0 fill repeat;
+ -moz-border-image: url("../images/blacklace.png") 46 1 0 0 repeat; 
+ -webkit-border-image: url("../imagesblacklace.png") 46 1 0 0 repeat; 
+ -o-border-image: url("../images/blacklace.png") 46 1 0 0 repeat; 
+ border-image: url("../images/blacklace.png") 46 1 0 0 fill repeat;
  background-clip: padding-box;
  background-color: black;
  text-align: center;
@@ -311,11 +311,11 @@ input[type=submit]:active {
   
 font-family: 'icomoon';
   src:
-url('../_fonts/icomoon.eot?-1dqcdv'); src:
-url('../_fonts/icomoon.eot?#iefix-1dqcdv') format('embedded-opentype'), 
-url('../_fonts/icomoon.woff?-1dqcdv') format('woff'), 
-url('../_fonts/icomoon.ttf?-1dqcdv') format('truetype'),  
-url('../_fonts/icomoon.svg?-1dqcdv#icomoon') format('svg');
+url('../fonts/icomoon.eot?-1dqcdv'); src:
+url('../fonts/icomoon.eot?#iefix-1dqcdv') format('embedded-opentype'), 
+url('../fonts/icomoon.woff?-1dqcdv') format('woff'), 
+url('../fonts/icomoon.ttf?-1dqcdv') format('truetype'),  
+url('../fonts/icomoon.svg?-1dqcdv#icomoon') format('svg');
 font-weight: normal;
 font-style: normal;
 }
@@ -410,7 +410,7 @@ line-height: 1;
 body 
 {
  background-color: white;
- background-image: url("../_img/mediumdoll.jpg");
+ background-image: url("../images/mediumdoll.jpg");
  background-repeat: no-repeat;
  background-position: center 59px;
 }
@@ -433,7 +433,7 @@ and (max-width : 1000px) {
 body 
 {
  background: white; /* corrects background size */
- background-image: url("../_img/techdoll2.jpg");
+ background-image: url("../images/techdoll2.jpg");
  background-repeat: no-repeat;
  background-position: center 59px;
 }
