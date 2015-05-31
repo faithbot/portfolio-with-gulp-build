@@ -1,0 +1,529 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden], template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active, a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button, select {
+  text-transform: none; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: 700; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td, th {
+  padding: 0; }
+
+/* Generic */
+.bold {
+  font-weight: 900; }
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 20px 0px 10px 0px; }
+
+/* General */
+* {
+  font-family: 'Raleway', Helvetica, Ariel, sans-serif;
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-image: url("../images/largedoll.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: contain;
+  min-height: 100%;
+  margin: 0; }
+
+img {
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+article {
+  margin: 30px 0px 40px 0px; }
+
+/* general link styling */
+a:link, a:visited {
+  text-decoration: none;
+  color: maroon; }
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: black; }
+
+/* main containers */
+header {
+  text-align: center;
+  width: 100%; }
+
+header img {
+  width: auto;
+  overflow: auto;
+  margin: 10px auto 20px auto;
+  padding: 0; }
+
+header h1 {
+  font-size: 4.9em;
+  font-weight: 500;
+  line-height: 0.9;
+  margin: 0px auto 0px auto;
+  padding: 0;
+  width: 90%; }
+
+.whitespace {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  text-align: center;
+  width: 70%;
+  margin: 10px auto 20px auto;
+  padding: 40px 3% 40px 3%; }
+
+.whitespace h2 {
+  font-size: 3em;
+  display: inline-block; }
+
+.whitespace article p {
+  font-size: 130%; }
+
+#contentwrap {
+  height: auto !important;
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto -6em auto;
+  /* the bottom margin is the negative value of the footer's height */ }
+
+#push {
+  clear: both;
+  height: 6em;
+  /* same height as footer */ }
+
+/* footer */
+.mainfooter {
+  border-style: solid;
+  border-width: 46px 0px 0px;
+  border-image: url("../images/blacklace.png") 46 1 0 0 fill repeat;
+  background-clip: padding-box;
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  /* height: 6em; */
+  height: auto !important;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+.mainfooter a:link, .mainfooter a:visited {
+  text-decoration: none;
+  color: pink; }
+
+.mainfooter a:hover, .mainfooter a:active {
+  text-decoration: none;
+  color: white; }
+
+/* form styling */
+fieldset {
+  border: 3px dashed #ddd;
+  display: block;
+  overflow: auto;
+  margin-top: 10px; }
+
+fieldset legend {
+  background: maroon;
+  border-radius: 10px;
+  color: white;
+  font-size: 130%;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-left: 5%; }
+
+label {
+  width: 25%;
+  font-weight: bold; }
+
+input[type=text] {
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px; }
+
+input[type=email] {
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px; }
+
+textarea {
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px; }
+
+input[type=reset] {
+  border-radius: 15px;
+  font-size: 120%;
+  margin: 0px;
+  padding: 5px 10px 5px 10px; }
+
+input[type=reset]:hover, input[type=reset]:focus, input[type=reset]:active {
+  border: 2px solid black; }
+
+input[type=submit] {
+  border-radius: 15px;
+  font-size: 120%;
+  margin: 0px;
+  padding: 5px 10px 5px 10px; }
+
+input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active {
+  border: 2px solid black; }
+
+/* navigation */
+#navi {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0; }
+
+#navi ul {
+  margin: 0 auto;
+  padding: 0; }
+
+#navi ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0px 5px 0px 5px; }
+
+/* hide mobile menu */
+#navi #toggle, #navi #hideMenu {
+  display: none; }
+
+#navi ul li a {
+  /* fade in link background */
+  transition: all 0.5s ease-in-out; }
+
+#navi ul li a:link, #navi ul li a:visited {
+  background-color: black;
+  border-radius: 0px 0px 25px 25px;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 4em;
+  padding: 10px 20px 10px 20px; }
+
+#navi ul li a:hover, #navi ul li a:active {
+  background-color: transparent;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: none;
+  color: maroon;
+  display: inline-block;
+  width: 4em;
+  padding: 10px 20px 10px 20px; }
+
+/* Icons */
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot');
+  src: url('../fonts/icomoon.eot') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-google-plus2:before {
+  content: "\ea89"; }
+
+.icon-github4:before {
+  content: "\eab4"; }
+
+.icon-linkedin:before {
+  content: "\eac8"; }
+
+.icon-stackoverflow:before {
+  content: "\eacf"; }
+
+/* for large gplus icon */
+.largeicon {
+  font-size: 0.8em; }
+
+.footicon {
+  font-size: 200%; }
+
+/* for small contact icons */
+.smallicon {
+  font-size: 90%; }
+
+/* image animation */
+.fadeIn {
+  border: 0;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+.fadeIn-1s {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
+
+.fadeIn-Delay-1s {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+/* media queries */
+/* smaller background */
+@media screen and (max-width: 1250px) {
+  body {
+    background-color: white;
+    background-image: url("../images/mediumdoll.jpg");
+    background-repeat: no-repeat;
+    background-position: center 59px; } }
+
+@media only screen and (max-width: 1000px) {
+  /* remove margins */
+  .whitespace {
+    width: 96%;
+    padding: 10px 2% 30px 2%; } }
+
+/* narrow, tall background */
+@media screen and (max-width: 700px) {
+  body {
+    background: white;
+    /* corrects background size */
+    background-image: url("../images/techdoll2.jpg");
+    background-repeat: no-repeat;
+    background-position: center 59px; }
+  header h1 {
+    font-size: 4em;
+    margin-top: 0px; } }
+
+/* mobile navigation */
+@media screen and (max-width: 935px) {
+  #navi {
+    width: 100%;
+    max-width: 935px;
+    height: auto; }
+  #navi ul {
+    position: relative;
+    top: 0px;
+    clear: both;
+    padding: 0;
+    /* corrects centering */
+    margin: 0; }
+  #navi ul li {
+    float: none;
+    padding: 0;
+    margin: 0;
+    display: none; }
+  #navi ul li a:link, #navi ul li a:visited {
+    width: 100%;
+    margin: 0;
+    padding: 10px 5px 10px 5px; }
+  #navi ul li a:hover, #navi ul li a:active {
+    width: 100%;
+    margin: 0;
+    padding: 10px 5px 10px 5px; }
+  /* hide menu by default */
+  #navi #toggle {
+    display: block; }
+  #navi #toggle a, #nav #hideMenu a {
+    padding: 10px 5px 10px 5px;
+    z-index: 1; }
+  #navi:target li {
+    display: block; }
+  #navi:target #toggle {
+    display: none; }
+  #navi:target #hideMenu {
+    display: block;
+    background: rgba(174, 0, 44, 0.5); }
+  #navi #hideMenu > a {
+    color: #fff; }
+  /* toggle function - after */
+  #toggle > a::after, #hideMenu > a::after {
+    position: absolute;
+    content: "";
+    right: 20px;
+    top: 16px;
+    height: 3px;
+    width: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    z-index: 1; }
+  /* toggle function - before */
+  #toggle > a::before, #hideMenu > a::before {
+    position: absolute;
+    content: "";
+    right: 20px;
+    top: 23px;
+    height: 3px;
+    width: 20px;
+    border-bottom: 2px solid white;
+    z-index: 1; }
+  #hideMenu > a::after, #hideMenu > a::before {
+    border-color: white; } }
+
+/* adjust h1 size for very small screens */
+@media screen and (max-width: 565px) {
+  header h1 {
+    font-size: 3em; } }
